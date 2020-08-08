@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -O3
+CFLAGS = -std=c++11 -O3
 
 huffman: main.o Huffman.o
 	$(CC) main.o Huffman.o $(CFLAGS) -o huffman
